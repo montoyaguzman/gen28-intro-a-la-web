@@ -1,0 +1,136 @@
+comandos
+
+pwd: imprime el directorio/path/ruta actual en el que estas
+cd: cambiarno de carpeta
+    cd ./carpeta
+    cd carpeta/carpeta2
+    cd ..
+    cd ../../
+    cd ~
+    cd /
+    
+~: home    
+/: raiz
+
+touch: crear archivos
+clear: limpiar la pantalla de la terminal
+ls: listar los archivos dentro de esa ruta/path
+    ls
+    ls -l
+    ls -lha
+rm: eliminar archivos o carpetas
+    rm hola.txt
+    rm -rf carpeta -r
+rmdir: 
+    rm carpeta-vacia
+cat: ver el contenido de un archivo
+history: ver los comandos anteriores
+man: muestra el manual de c/comando
+    man ls
+
+mv:
+cp:
+ping: comprobar la conexion con un dominio o un ip
+
+
+disco c
+users
+home
+
+Git
+Es un controlador de versiones. Programa en que se instala en la pc y funciona por medio de comandos en la terminal.
+Nos va ayudar a trabajar repositorios.
+
+Github
+Pagina internet, tipo red social de programadores.
+Subimos el codigo para compartirlo con otros.
+
+
+CONFIGURACION DE UNA SOLA VEZ PARA GIT
+git config --global user.name montoyaguzman7
+git config --global user.email "montoyaguzman7@gmail.com"
+git config --list
+
+INICIALIZAR UN REPO
+git init
+
+crear carpeta html-css
+crear un archivo apuntes.txt
+dentro de la carpeta html-css crear un archivo index.html y styles.css
+
+touch apuntes.txt
+mkdir html-css
+cd html-css
+pwd
+touch index.html
+touch styles.css
+
+
+MANEJO DEL REPO
+git status
+git log
+
+COMMIT
+git add .
+git add apuntes.txt
+
+git rm --cached . -r
+git rm --cached apuntes2.txt
+
+git commit -m "mi mensaje..."
+
+
+TAREA
+1. Replicar todo lo que hicimos en clase entre 7:50 y 9:08.
+2. Crear un segundo repo el que quieran.
+    Sin carpetas vacias.
+    Hacer al menos 10 commits.
+3. Crear y agregar la llave ssh a su pagina de github.
+4. Conectar los dos repos (1 por 1) al un repo remoto.
+
+GITHUB
+contrasena => https (deprecated)
+keyssh => ssh
+
+GENERAR SU KEY SSH
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+
+https://git-scm.com/book/es/v2/Git-en-el-Servidor-Generando-tu-clave-p%C3%BAblica-SSH
+
+
+
+REPASO GIT
+
+1. Areas
+    Working directory, Staging y repositorio commit
+2. Repo local vs repo remoto
+    Repo local va ser el que tiene su compu (git init + git add . + git commit)
+    Repo remoto
+        - crear un repo en github y asociarlo a su repo local
+3. Branches, Viajes tiempo, Pull Request, Conventional commits, Git flow,
+    etc.
+
+POSIBLES ERRORES
+1. Poner mal la url del repo remoto
+    git remote -v
+    // borrar
+    // modificar
+2. Editor vim => :q
+
+programacion en bash o programacion shell
+
+
+git clone git@github.com:montoyaguzman/intro-a-la-web-gen28.git
+git add .
+git commit -m "kbnansajk"
+git push origin main
+
+git pull origin main
+
+
+
+
+Trabajar 2 compus
+1. git config --global user.name y user.email
+2. ssh
