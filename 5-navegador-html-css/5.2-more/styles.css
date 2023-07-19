@@ -1,0 +1,41 @@
+.subtitle {
+    color: brown;
+}
+
+.article-title {
+    color: blueviolet;
+}
+
+#page-name {
+    color: rgb(19, 50, 190);
+}
+
+#page-name:hover {
+    color: pink;
+}
+
+#main-element-menu {
+    color: red;
+}
+
+li>ul>.element-menu {
+    color: blue;
+}
+
+span {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span::first-letter {
+    font-size: 20px;
+}
+
+
+h4 .final {
+    text-align: end;
+}
+
+h4 {
+    text-align: center;
+}

@@ -577,7 +577,7 @@ En html existen elementos de **inline** (se limitan a su contenido) y elemento d
 ##### Lista de selectores basicos
 
 ```
-# selector universal
+id# selector universal
 /* aplica a todo el documento */
 * {
 
@@ -596,8 +596,8 @@ tag {
 }
 
 # selector de id
-/* aplica a <div class="myId"></div> */
-#myId {
+/* aplica a <div id="my-id"></div> */
+#my-id {
  // css rules
 }
 
@@ -664,11 +664,11 @@ Permiten añadir estilos a una parte concreta del documento.
 
 | Pseudo-Elementos |
 | ---------------- |
-| :first-letter    |
-| :first-line      |
-| :before          |
-| :after           |
-| :selection       |
+| ::first-letter   |
+| ::first-line     |
+| ::before         |
+| ::after          |
+| ::selection      |
 
 ```
 
