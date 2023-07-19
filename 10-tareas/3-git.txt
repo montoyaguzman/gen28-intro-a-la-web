@@ -1,0 +1,8 @@
+1. Replicar todo lo que hicimos en clase entre 7:50 y 9:08 de la clase de git 11/07/23.
+2. Crear un segundo repo el que quieran como prueba. El repo debe tener lo siguiente:
+    Sin carpetas vacias.
+    Hacer al menos 10 commits.
+3. Crear y agregar la llave ssh a su pagina de github.
+4. Conectar los dos repos el de estudiante creado para la kata y el repo de ejemplo al un repo remoto.
+    Ejemplo: intro-a-la-web-juanito-perez y mi-repo-ejemplo
+5. Usar ssh en el paso 4.
