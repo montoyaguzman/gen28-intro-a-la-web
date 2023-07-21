@@ -39,3 +39,19 @@ h4 .final {
 h4 {
     text-align: center;
 }
+
+
+article {
+    padding: 10px 20px 11px 21px;
+    /*
+        padding-left: 21px;
+        padding-righ: 20px;
+        padding-bottom: 11px;
+        padding-top: 10px;
+    */
+    /* top right bottom left*/
+    margin: 15px 16px 17px 18px;
+    /* top right bottom left*/
+    border: 2px solid red;
+    /* add style y color sino no se ve :v */
+}

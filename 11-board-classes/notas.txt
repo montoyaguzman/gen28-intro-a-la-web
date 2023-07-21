@@ -150,3 +150,6 @@ Jueves 3 Clase = preguntar dudas??
 Viernes y Lunes pulir su proyecto
 
 Martes
+
+display: block;
+display: inline;

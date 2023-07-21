@@ -1,0 +1,3 @@
+1. Leer el readme y las ppt de nuevo y probar.
+2. Ver en 2x los video de Fazt html y fazt css.
+3. Maqueta gatitos que viene en la ppt 5 (sin flex y sin grid)

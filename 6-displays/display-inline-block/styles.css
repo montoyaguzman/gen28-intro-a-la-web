@@ -1,0 +1,13 @@
+article {
+    background: blue;
+    display: inline;
+}
+
+aside {
+    background: green;
+    display: inline;
+}
+
+.block {
+    display: block;
+}
