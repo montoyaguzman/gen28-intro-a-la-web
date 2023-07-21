@@ -1,4 +1,5 @@
 ls
+ls -lha
 pwd
 clear
 history
@@ -9,6 +10,7 @@ nano
 cat
 rmdir
 rm
+rm - rf folder-name
 cp
 mv
 ping

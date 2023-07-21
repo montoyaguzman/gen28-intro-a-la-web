@@ -1,4 +1,4 @@
-comandos
+COMANDOS
 
 pwd: imprime el directorio/path/ruta actual en el que estas
 cd: cambiarno de carpeta
@@ -37,11 +37,11 @@ disco c
 users
 home
 
-Git
+GIT
 Es un controlador de versiones. Programa en que se instala en la pc y funciona por medio de comandos en la terminal.
 Nos va ayudar a trabajar repositorios.
 
-Github
+GITHUB
 Pagina internet, tipo red social de programadores.
 Subimos el codigo para compartirlo con otros.
 
@@ -99,7 +99,6 @@ cat ~/.ssh/id_rsa.pub
 https://git-scm.com/book/es/v2/Git-en-el-Servidor-Generando-tu-clave-p%C3%BAblica-SSH
 
 
-
 REPASO GIT
 
 1. Areas
@@ -128,9 +127,26 @@ git push origin main
 
 git pull origin main
 
-
-
-
 Trabajar 2 compus
 1. git config --global user.name y user.email
 2. ssh
+
+
+20/07/2023
+
+Layouts
+1. Position / Tables
+2. Flexbox
+3. CSS Grid
+
+Jueves 27 Clase
+Viernes y lUNES Terminar ejercicio
+Martes 1 Clase
+
+Miercoles ==>
+
+Jueves 3 Clase = preguntar dudas??
+
+Viernes y Lunes pulir su proyecto
+
+Martes

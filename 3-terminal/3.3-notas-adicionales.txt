@@ -1,0 +1,11 @@
+Consideraciones
+1. La terminal es case sensitive.
+2. Con la tecla tab se autocompleta texto.
+3. Con las flechas arriba y abajo vemos comandos previos.
+4. Se recomienda crear archivos y carpetas sin espacios y con kebab-case.
+
+Nomenclaturas de escritura sin espacios
+* camelCase
+* snake_case
+* kebab-case
+* Train-Case

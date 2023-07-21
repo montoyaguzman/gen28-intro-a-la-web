@@ -54,7 +54,7 @@ En una arquitectura Cliente-Servidor existe un **servidor** y **múltiples clien
 
 El cliente solo es una capa para representar los datos y se detonan acciones para modificar el estado del servidor, mientras que el servidor es el que hace todo el trabajo pesado.
 
-![1676592541588](image/readme/1676592541588.png)
+![1676592541588](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676592541588.png)
 
 NOTA: Considere que el modelo cliente servidor es una abstraccion. Cualquier cosa que solicite recursos puede ser considerada un cliente (computadora, celular, el navegador, una pagina web, codigo JS) y cualquier cosa que responda información o ponga a disposición un servicio es un servidor (computadora, celular, un API, etc.)
 
@@ -89,7 +89,7 @@ Un **dominio web** es el nombre único que recibe un sitio web en internet. En o
 
 A continuacion se muestran las partes de una url, donde se observa que parte corresponde al dominio.
 
-![1676424790021](image/readme/1676424790021.png)
+![1676424790021](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676424790021.png)
 
 * **Protocolo:** Un protocolo es el conjunto de reglas que se establecen para el uso de una determinada tecnologia. El protocolo http/https son protocolos para la comunicacion en internet (transferencia de hypertexto).
 * **Path:** Es una ruta donde se ubican archivos en un servidor.
@@ -208,11 +208,11 @@ Integrated Development Enviroment (IDE) es un software para el diseño de aplica
 
 1. Comparador de cambios (esquina superior derecha).
 
-![1676839597640](image/readme/1676839597640.png)
+![1676839597640](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676839597640.png)
 
 2. Commits en vscode.
 
-![1676839824330](image/readme/1676839824330.png)
+![1676839824330](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676839824330.png)
 
 3. Buscar coincidencias de texto ( ctrl / command + f ).
 
@@ -222,12 +222,12 @@ Integrated Development Enviroment (IDE) es un software para el diseño de aplica
    try!!!
 5. Ir a la configuración (ajustes) de vscode.
 
-![1676839756400](image/readme/1676839756400.png)
+![1676839756400](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676839756400.png)
 
 6. Abrir la terminal de comandos de vscode ( ctrl / command + j ).
 7. Cambiar la terminal de vscode.
 
-   ![1676840080400](image/readme/1676840080400.png)
+   ![1676840080400](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676840080400.png)
 
 #### **VSC como editor predeterminado para git**
 
@@ -252,265 +252,10 @@ regresar a la terminal y presionar ctrl + c
 * [Andy Bell - How the CSS box-sizing property works](https://andy-bell.co.uk/how-the-css-box-sizing-property-works/).
 * [Cambia de HEX a RGB a HSL in segundos](https://www.kevinpowell.co/article/change-from-hex-to-rgb-to-hsl-in-seconds-with-vs-code/).
 
-### Terminal
+### Terminal, Git y Github
 
-La terminal o consola es una forma generalizada de llamar a la interfaz de línea de comandos: una pantalla. Sirve para escribir comandos  con los que ordenamos al sistema realizar acciones concretas.
+Ir al [repo de terminal y git.](https://github.com/montoyaguzman/terminal-git-notes)
 
-* [Guía para la Terminal enfocado a desarrolladores Frontend](https://www.joshwcomeau.com/javascript/terminal-for-js-devs/).
-
-**Path**
-
-Una ruta o path indica una ubicación a nivel de carpeta de algun fichero dentro del
-sistema de archivos.
-
-#### **Ejemplos de path**
-
-```
-/# Raiz
-/
-
-/# Significa ahi mismo
-./
-
-/# Regresar un nivel de carpetas../
-../../
-
-/# Ir la carpeta home
-~/
-```
-
-#### Uso de comandos básicos
-
-```
-# imprime el path en el que se encuentra
-pwd
-
-# moverse entre carpetas
-cd path
-
-# listar carpetas y archivos que hay en el directorio actual
-ls
-
-# crear carpetas
-mkdir newFolder
-
-# crear archivos
-touch nameFile.txt
-
-# eliminar carpetas
-rmdir folderName
-
-# eliminar archivos
-rm fileName.txt
-
-# limpiar la pantalla
-clear
-```
-
-#### **Ejemplos de uso del comando cd**
-
-```
-cd ..
-cd ..
-cd ..
-cd myFolder
-cd ../../../desktop
-cd ~/
-cd ./
-```
-
-#### **Otros comandos**
-
-```
-# comprobar conexion a un dominio/ip
-ping www.google.com
-
-
-# editor nano
-nano archivo.txt
-
-# ver un archivo
-cat archivo.txt
-```
-
-**NOTA:** ctrl + c (detiene procesos en la terminal).
-
-Cuando un comando lleva -x y letras son PARAMETROS de como se debe ejecutar.
-
-### Git
-
-Git es un sistema de control de versiones.
-
-#### Configuraciones iniciales
-
-```
-# establecer un usuario global
-git config --global user.name "juanito perez"
-
-
-# establecer un correo global
-git config --global user.email juanito.perez@example.com
-
-# inicializar una carpeta como repositorio
-git init
-```
-
-#### Información del repo
-
-```
-# ver estado del working directory y/o staging area
-git status
-
-# ver historial de commits
-git log --oneline
-```
-
-#### Hacer un commit
-
-```
-# agregar al staging area
-git add .
-
-# quitar del staging area
-git restore --staged namefile.txt
-
-# hacer un commit al repo local
-git commit -m "conventionalCommitScope: mi mensaje"
-
-```
-
-#### Administración de ramas
-
-```
-# ver rama en la que se encuentra el head
-git branch 
-
-# crea una rama nueva
-git branch newBranchName 
-
-# cambiarse a una rama con el nombre nombreRama
-git checkout branchName
-
-# crear y cambiarse a una nueva rama
-git checkout -b newBranchName
-
-# crear y cambiarse a una nueva rama
-git switch -c newBranchName 
-
-# eliminar una rama
-git branch -D branchName
-
-```
-
-#### Otros comandos útiles
-
-```
-# Descarta los cambios del stagin y working directory
-git reset --hard
-
-# actualiza la cache de git para que tome ciertos cambios (.gitignore)
-git rm --cached . r
-
-# actualiza el mensaje del ultimo commit realizado (no debe estar pusheado)
-git commit --amend -m "an updated commit message"
-
-# stash: el codigo de working directory y staging area es eliminado temporalmente
-git stash
-
-# stash: el codigo de working directory y staging area que fue eliminado se recuperar
-git stash pop
-
-```
-
-[Más info](https://www.conventionalcommits.org/en/v1.0.0/)
-
-#### Buenas practicas para mensajes de commits
-
-##### Commits Atómicos
-
-Consiste en realizar un commit por un solo objetivo. Es decir, no mezclar muchas soluciones en el mismo commit.
-
-##### Conventional Commits
-
-Es una especificación sobre como escribir mensajes de confirmación (commits).
-
-**Estructura una línea**
-
-```
-[optional scope]: [optional body][optional footer(s)]
-```
-
-**Esctructura multilínea**
-
-```
-feat: add hat wobble
-^--^  ^------------^
-|     |
-|     +-> Resumen en tiempo presente (no deberia ser un listado).
-|
-+-------> Tipo: chore(tarea), docs(documentos), feat(logro), fix(corrección), refactor(refactorización), style(estilo), or test(prueba).
-
-[optional footer(s)]
-```
-
-**Tipos principales**
-
-* **feat:** Nuevas funcionalidades.
-* **chore:** Cosas que no aportan un requerimiento funcional, generalmente son requerimientos no funcionales.
-* **fix:** Corrección de errores.
-* **docs:** Documentación o comentarios.
-* **style:** Cambios de legibilidad o formateo de código que no afecta a funcionalidad.
-* **refactor:** Modificaciones de código o arquitectura que no corrige errores ni añade funcionalidad, pero mejora la escritura y optimiza la funcionalidad.
-* **test:** Para añadir o arreglar tests.
-
-**Referencias**
-
-- [Semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).
-- [Conventional commits](https://www.conventionalcommits.org/).
-- [Karma](http://karma-runner.github.io/1.0/dev/git-commit-msg.html).
-
-#### Github
-
-Github es el repositorio remoto a donde podemos respaldar el codigo. Los siguientes comandos funcioan para conectarse a cualquier repositorio remoto, nos sólo a github, por ejemplo gitlab o bitbucket.
-
-#### Generar llave ssh
-
-```
-# generar ssh key
-ssh-keygen
-
-# ver llave pública
-cat ~/.ssh/id_rsa.pub
-```
-
-#### Conexión al repo remoto
-
-```
-# ver los repos remotos a los que esta conectado el repo local
-git remote -v
-
-# agregar una direccion remoto (origin)
-git remote add origin myUrl
-
-# modificar una direccion remoto (origin)
-git remote set-url origin myUrl
-```
-
-### Subir y bajar cambios
-
-```
-# bajar cambios
-git pull origin branchNamesubir cambios
-
-# git push origin branchName
-
-# subir cambios de una rama nueva para el remoto
-git push -u origin branchName
-
-# obtener los cambios de una rama remota y cambiarse a esa rama
-
-git fetch && git checkout develop
-```
 
 ### Navegador
 
@@ -711,13 +456,15 @@ La especificidad en CSS es un grupo de reglas aplicadas a los selectores CSS par
 
 #### Displays
 
-![1676843355531](image/readme/1676843355531.png)
+![1676843355531](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676843355531.png)
 
 #### **Positions**
 
-![1676844521540](image/readme/1676844521540.png)
+![1676844521540](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676844521540.png)
 
-![1676843286033](image/readme/1676843286033.png)
+#### Uso de position
+
+![1676843286033](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676843286033.png)
 
 #### Unidades
 
@@ -744,19 +491,19 @@ Las medidas en CSS determinan el tamaño de los elementos, existen de do tipos:
 
 ### Flexbox
 
-![1676843097444](image/readme/1676843097444.png)
+![1676843097444](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676843097444.png)
 
 [Video explicativo de flexbox](https://www.youtube.com/watch?v=EVBlLkfh2V0&t=1917s)
 
 ### CSS Grid
 
-![1676843110002](image/readme/1676843110002.png)
+![1676843110002](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676843110002.png)
 
 [Video explicativo de css grid](https://www.youtube.com/watch?v=Fj6BGtNvXIc)
 
 ### Responsive design
 
-**E****s** **una ****técnica** de diseño web **que busca** **la correcta visualización de una misma página en distintos dispositivos.** Desde ordenadores de escritorio a tablets y móviles.
+**E**s una **técnica** de diseño web **que busca** **la correcta visualización de una misma página en distintos dispositivos.** Desde ordenadores de escritorio a tablets y móviles.
 
 #### Técnicas de diseño responsivo
 
@@ -840,40 +587,11 @@ html {
 
 ### Proyecto del módulo
 
-Se encuentra en google drive...
+Ir a la carpeta 9-proyecto del repositorio
 
 ### Glosario
 
-* **Buena práctica:** Es una actividad que se ha demostrado que funciona bien y produce buenos resultados, y, por lo tanto, se recomienda como modelo.
-* **Carpeta home:** carpeta de su usuario /Users/montoyitag (~/)
-* **Carpeta raíz:** Es la base de nuestro disco duro. Por ejemplo: disco C:\ o en linux /
-* **Cliente:** Es quien solicita información dentro de un sistema informático.
-* **DNS:** Es un tipo de servidor de redes de computadora que se encarga de convertir direcciones web en dominios IP y viceversa. Ejemplo: 8.8.8.8 => www.google.com
-* **Dominio:**  Es una dirección web compuesta por un nombre de sitio web y una extensión de dominio. Ejemplo: google.com
-* **Dummy:** Es un dato o elemento de prueba, sirve para simular datos.
-* **Estándar:** Es un patrón o modelo a seguir, generalmente derivado de un documento o certificación.
-* **Hosting:** Un hosting  **es un servicio de alojamiento para páginas web bajo un servidor** .
-* **Internet:** Red conformada por todas las redes del mundo para comunicarse y compartir información.
-* **Ip:** La dirección IP es una etiqueta numérica, por ejemplo "192.0.10.1" que identifica, de manera lógica y jerárquica, a una interfaz en la red. Existen IP públicas y IP privadas.
-* **Kernel:** El kernel es el núcleo de un sistema operativo y, por tanto, la interfaz (middleware) entre el software y el hardware.
-* **Mockup:** En diseño es un bosquejo o representación de una vista o maqueta, en programación es información de prueba.
-* **Path:** Es una ruta o dirección donde se encuentra alojado un recurso en un sistema de archivos. Existen rutas relativas como ../../my-docs o absolutas como C:\users\juan\Documents\tarea\tesis.doc
-* **Plugin:** Software pequeño que sirve como complemento de otro para un fin en específico.
-* **Proceso:** Cualquier tarea que ocurre en nuestro informático.
-* **Proceso en segundo plano:** Es un proceso en el que el usuario no tiene que hacer algo para que suceda.
-* **Prototipo:** Es una representación aparente pero concreta de parte o la totalidad de una idea de negocio o sobre un producto o servicio.
-* **Puerto:** un lugar donde se abre una conexión para acceder a un servicio.
-* **Requerimiento funcional:** Son features que el usuario o negocio requieren para su proyecto de software. Aportan un valor operativo.
-* **Requerimiento no funcional:** Son features que no aportan un valor operativo pero si son requeridos para que el software funcione correctamente (seguridad, despliegue, pruebas, etc.).
-* **Red de computadoras:** Conjunto de computadoras interconectadas entre sí para compartir datos y servicios.
-* **Scaffolding:** Estructura de carpetas y archivos de un proyecto de desarrollo.
-* **Servidor:** Es una instancia fisica o lógica que responde peticiones (request).
-* **Sistema operativo:** Es el software que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora.
-* **URL:** Es una dirección web compuesta por al menos el protocolo, dominio y ruta.
-* **Viewport:** En términos de navegadores web, se refiere a la parte del documento que usted está viendo en el momento, es el ancho y alto de navegador en un momento del tiempo.
-* **Web:** Conjunto de información que se encuentra en una dirección determinada de internet.
-* **Wireframe:** Es una representación visual de un sitio web.
-* **World Wide Wibe:** Es un sistema que funciona a través de internet, por el cual se puede transmitir contenido basado en estándares web.
+Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
 
 ### Path sugerido
 

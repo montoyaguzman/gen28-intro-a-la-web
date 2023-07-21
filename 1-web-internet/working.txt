@@ -1,0 +1,24 @@
+Glosario de conceptos
+
+Red: Es un conjunto de dispositivos interconectados para compartir recursos.
+Internet: Red mundial de computadoras.
+Web: Información que se puede consultar en internet.
+Modelo de Von Neumman: Representación de que se considera que es una computadora.
+Protocolos: Reglas de comunicación para internet.
+Http y https.
+Tcp/ip.
+Dirección IP: Identificador de c/dispositivo en la red.
+Pública: Es la ip que tiene mi equipo en internet.
+Privada: Es la ip que tiene mi equipo en mi red local (casa).
+Puerto: Canal específico de comunicación dentro de una PC.
+Dominio: www.google.com.
+DNS: El traductor de IPs y dominios.
+Hoisting: Servicio necesario para publicar mi página en internet.
+Front end: Es la parte que codifica todo lo que está en interacción con el usuario.
+Back end: Es la parte que resguarda datos y lógica de un sistema, normalmente está en el servidor.
+Navegador: Es una herramienta donde se pueden ver las páginas web.
+Integrated Development Environment (IDE): Es un editor dedicado a escribir código.
+HTML: Lenguaje de marcas para escribir la estructura de un sitio web.
+CSS: Lenguaje de cascada para hacer los estilos de un sitio web.
+JavaScript: Lenguaje de programación con el que se escribe la lógica (comportamiento) del front end.
+
