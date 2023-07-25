@@ -1,0 +1,7 @@
+Crear un proyecto de registro de alumnos con las siguientes etiquetas para forms:
+- input (type text, number y date)
+- select
+- checkbox
+- radiobutton 
+- text area
+- range
