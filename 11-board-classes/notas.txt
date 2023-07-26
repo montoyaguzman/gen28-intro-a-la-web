@@ -153,3 +153,37 @@ Martes
 
 display: block;
 display: inline;
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+h3, h4 {
+    color: green;
+}
+
+// o usar un class
+
+TIPS PARA POSICIONAR ELEMENTOS
+
+// 1. que tipo de etiqueta? inline/block
+// 2. display: block o display: inline;
+// text-align: center;
+// position: float
+// top, left, right, bottom => solo funcionan con position
+
+El flow del html
+/orden de las tags html en codigo y vista
+
+div {
+    position: static | relative | absolute | fixed | sticky;
+    top: 10px;
+}
