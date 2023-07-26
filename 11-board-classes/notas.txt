@@ -187,3 +187,15 @@ div {
     position: static | relative | absolute | fixed | sticky;
     top: 10px;
 }
+
+RENOMBRAR UN COMMIT
+git commit --amend -m "an updated commit message"
+
+ALINEAMIENTO
+
+justify- (horizontal)
+align- (vertical)
+
+content (grupo de celdas (no el container))
+items (elementos)
+self (elements, se usa desde c/elemento)
