@@ -15,7 +15,7 @@
 11. [CSS Grid](#css-grid)
 12. [Responsive design](#responsive-design)
 13. [Best practices](#best-practices)
-14. [Proyecto del modulo](#proyecto-del-modulo)
+14. [Proyecto del módulo](#proyecto-del-módulo)
 15. [Glosario](#glosario)
 16. [Path sugerido](#path-sugerido)
 17. [Recursos y herramientas](#recursos-y-herramientas)
