@@ -1,4 +1,4 @@
-# cIntro a la web
+# tocIntro a la web
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 11. [CSS Grid](#css-grid)
 12. [Responsive design](#responsive-design)
 13. [Best practices](#best-practices)
-14. [Proyecto del modulo](proyecto-del-modulo)
+14. [Proyecto del modulo](#proyecto-del-modulo)
 15. [Glosario](#glosario)
 16. [Path sugerido](#path-sugerido)
 17. [Recursos y herramientas](#recursos-y-herramientas)
@@ -620,7 +620,7 @@ html {
 
 ### Proyecto del módulo
 
-Ir a la carpeta 9-proyecto del repositorio
+Ir a la carpeta [9-proyecto](./9-proyecto/requerimientos.md)
 
 ### Glosario
 
