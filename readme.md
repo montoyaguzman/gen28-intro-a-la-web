@@ -5,18 +5,20 @@
 1. [Redes e Internet](#redes-e-internet)
 2. [Desarrollo web](#desarrollo-web)
 3. [VS Code](#vs-code)
-4. [Terminal, Git y Github](#Terminal,-Git-y-Github)
-5. [Navegador](#navegador)
-6. [Html](#html)
-7. [Css](#css)
-8. [Flexbox](#flexbox)
-9. [CSS Grid](#css-grid)
-10. [Responsive design](#responsive-design)
-11. [Best practices](#best-practices)
-12. [Proyecto del modulo](https://docs.google.com/document/d/1s6y6oWGtIuyIuGL90d0rWuL8wQr6jo5jRlXx8nj7ChU/edit?usp=sharing)
-13. [Glosario](#glosario)
-14. [Path sugerido](#path-sugerido)
-15. [Recursos y herramientas](#recursos-y-herramientas)
+4. [Terminal](#terminal)
+5. [Git](#git)
+6. [Github](#github)
+7. [Navegador](#navegador)
+8. [Html](#html)
+9. [Css](#css)
+10. [Flexbox](#flexbox)
+11. [CSS Grid](#css-grid)
+12. [Responsive design](#responsive-design)
+13. [Best practices](#best-practices)
+14. [Proyecto del modulo](https://docs.google.com/document/d/1s6y6oWGtIuyIuGL90d0rWuL8wQr6jo5jRlXx8nj7ChU/edit?usp=sharing)
+15. [Glosario](#glosario)
+16. [Path sugerido](#path-sugerido)
+17. [Recursos y herramientas](#recursos-y-herramientas)
 
 **Estructura de carpetas sugerida**
 
@@ -249,9 +251,17 @@ regresar a la terminal y presionar ctrl + c
 * [Andy Bell - How the CSS box-sizing property works](https://andy-bell.co.uk/how-the-css-box-sizing-property-works/).
 * [Cambia de HEX a RGB a HSL in segundos](https://www.kevinpowell.co/article/change-from-hex-to-rgb-to-hsl-in-seconds-with-vs-code/).
 
-### Terminal, Git y Github
+### Terminal
 
-Ir al [repo de terminal y git.](https://github.com/montoyaguzman/terminal-git-notes)
+Ir al [Notas sobre los comandos de la terminal](https://github.com/montoyaguzman/terminal-git-notes/blob/main/terminal.md).
+
+### Git
+
+Ir al [repo de comandos de git.](https://github.com/montoyaguzman/terminal-git-notes)
+
+### Github
+
+Proximamente se subira una guía para saber como conectar sus repos locales a repos remotos...
 
 ### Navegador
 
