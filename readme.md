@@ -15,7 +15,7 @@
 11. [CSS Grid](#css-grid)
 12. [Responsive design](#responsive-design)
 13. [Best practices](#best-practices)
-14. [Proyecto del módulo](#proyecto-del-modulo)
+14. [Proyecto del módulo](#proyecto-del-módulo)
 15. [Presentaciones](#presentaciones)
 16. [Glosario](#glosario)
 17. [Informacion y recursos extra](#informacion-y-recursos-extra)
