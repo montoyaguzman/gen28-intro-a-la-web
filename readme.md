@@ -1,4 +1,4 @@
-# tocIntro a la web
+# Intro a la web
 
 ## Table of Contents
 
@@ -15,10 +15,11 @@
 11. [CSS Grid](#css-grid)
 12. [Responsive design](#responsive-design)
 13. [Best practices](#best-practices)
-14. [Proyecto del módulo](#proyecto-del-módulo)
-15. [Glosario](#glosario)
-16. [Path sugerido](#path-sugerido)
-17. [Recursos y herramientas](#recursos-y-herramientas)
+14. [Proyecto del módulo](#proyecto-del-modulo)
+15. [Presentaciones](#presentaciones)
+16. [Glosario](#glosario)
+17. [Informacion y recursos extra](#informacion-y-recursos-extra)
+18. [Path sugerido](#path-sugerido)
 
 **Estructura de carpetas sugerida**
 
@@ -626,28 +627,7 @@ Ir a la carpeta [9-proyecto](./9-proyecto/requerimientos.md)
 
 Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
 
-### Path sugerido
-
-* Entender como funciona a alto nivel el internet y el navegador.
-* Repaso de herramientas y shorcuts de vscode.
-* Comandos de terminal.
-* Entendimiento del funcionamiento de git (staging area, working directory y repo local).
-* Repaso de comandos git (stage y unstaged commits, conexion remoto remoto, subir y bajar cambios, crear y bajar ramas, moverse entre commits).
-* Html y css (leer la documentación).
-* Investigar buenas prácticas de diseño web.
-* **Siguiente kata:**
-  * Leer sobre lógica de programación (diagramas de flujo y pseudocodigo).
-  * Documentación de JavaScript.
-  * Repasa, repite, prácticar, empaparse de todos lados.
-  * Formarse un criterio propio y estar dispuesto a reaprender.
-
-#### Paths para front end
-
-* [Roadmap.sh](https://roadmap.sh/)
-* [Roadmap Desarrollador Frontend](https://roadmap.sh/frontend)
-* [Roadmap Frontend Performance](https://roadmap.sh/best-practices/frontend-performance)
-
-### Recursos y herramientas
+### Informacion y recursos extra
 
 ##### Documentación
 
