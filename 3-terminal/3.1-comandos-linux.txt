@@ -1,0 +1,17 @@
+ls
+ls -lha
+pwd
+clear
+history
+cd
+mkdir
+touch
+nano
+cat
+rmdir
+rm
+rm - rf folder-name
+cp
+mv
+ping
+ps: ver procesos activos en la terminal

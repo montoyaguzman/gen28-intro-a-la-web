@@ -1,0 +1,3 @@
+1. Leer en el readme sobre medidas, especificidad y selectores.
+2. Poner estilos a la maqueta WooCommerce para que se vea como en la imagen.
+3. Maquetar el sitio de home de google.
