@@ -623,6 +623,10 @@ html {
 
 Ir a la carpeta [9-proyecto](./9-proyecto/requerimientos.md)
 
+### Presentaciones
+
+Se encuentran en la [carpeta assets](./assets/) de este mismo repo.
+
 ### Glosario
 
 Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
@@ -746,3 +750,24 @@ Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
 * [JavaScript Wizz](https://www.tiktok.com/@javascript_wizz?lang=en).
 * [Kevin Powell](https://www.tiktok.com/@kevinpowellcss?lang=en).
 * [Figma](https://www.tiktok.com/@figmaofficial?lang=en).
+
+### Path sugerido
+
+* Entender como funciona a alto nivel el internet y el navegador.
+* Repaso de herramientas y shorcuts de vscode.
+* Comandos de terminal.
+* Entendimiento del funcionamiento de git (staging area, working directory y repo local).
+* Repaso de comandos git (stage y unstaged commits, conexion remoto remoto, subir y bajar cambios, crear y bajar ramas, moverse entre commits).
+* Html y css (leer la documentación).
+* Investigar buenas prácticas de diseño web.
+* **Siguiente kata:**
+  * Leer sobre lógica de programación (diagramas de flujo y pseudocodigo).
+  * Documentación de JavaScript.
+  * Repasa, repite, prácticar, empaparse de todos lados.
+  * Formarse un criterio propio y estar dispuesto a reaprender.
+
+#### Paths para front end
+
+* [Roadmap.sh](https://roadmap.sh/)
+* [Roadmap Desarrollador Frontend](https://roadmap.sh/frontend)
+* [Roadmap Frontend Performance](https://roadmap.sh/best-practices/frontend-performance)
