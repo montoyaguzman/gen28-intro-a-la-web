@@ -5,21 +5,18 @@
 1. [Redes e Internet](#redes-e-internet)
 2. [Desarrollo web](#desarrollo-web)
 3. [VS Code](#vs-code)
-4. [Terminal](#terminal)
-5. [Git](#git)
-6. [Github](#github)
-7. [Navegador](#navegador)
-8. [Html](#html)
-9. [Css](#css)
-10. [Flexbox](#flexbox)
-11. [CSS Grid](#css-grid)
-12. [Responsive design](#responsive-design)
-13. [Best practices](#best-practices)
-14. [Proyecto del modulo](https://docs.google.com/document/d/1s6y6oWGtIuyIuGL90d0rWuL8wQr6jo5jRlXx8nj7ChU/edit?usp=sharing)
-15. [Glosario](#glosario)
-16. [Path sugerido](#path-sugerido)
-17. [Recursos y herramientas](#recursos-y-herramientas)
-18. [Areas de estudio](#areas-de-estudio)
+4. [Terminal, Git y Github](#Terminal,-Git-y-Github)
+5. [Navegador](#navegador)
+6. [Html](#html)
+7. [Css](#css)
+8. [Flexbox](#flexbox)
+9. [CSS Grid](#css-grid)
+10. [Responsive design](#responsive-design)
+11. [Best practices](#best-practices)
+12. [Proyecto del modulo](https://docs.google.com/document/d/1s6y6oWGtIuyIuGL90d0rWuL8wQr6jo5jRlXx8nj7ChU/edit?usp=sharing)
+13. [Glosario](#glosario)
+14. [Path sugerido](#path-sugerido)
+15. [Recursos y herramientas](#recursos-y-herramientas)
 
 **Estructura de carpetas sugerida**
 
@@ -56,7 +53,7 @@ El cliente solo es una capa para representar los datos y se detonan acciones par
 
 ![1676592541588](https://github.com/montoyaguzman/intro-web-gen24c/raw/main/image/readme/1676592541588.png)
 
-NOTA: Considere que el modelo cliente servidor es una abstraccion. Cualquier cosa que solicite recursos puede ser considerada un cliente (computadora, celular, el navegador, una pagina web, codigo JS) y cualquier cosa que responda información o ponga a disposición un servicio es un servidor (computadora, celular, un API, etc.)
+**NOTA:** Considere que el modelo cliente servidor es una abstraccion. Cualquier cosa que solicite recursos puede ser considerada un cliente (computadora, celular, el navegador, una pagina web, codigo JS) y cualquier cosa que responda información o ponga a disposición un servicio es un servidor (computadora, celular, un API, etc.)
 
 #### **Navegadores web**
 
@@ -256,7 +253,6 @@ regresar a la terminal y presionar ctrl + c
 
 Ir al [repo de terminal y git.](https://github.com/montoyaguzman/terminal-git-notes)
 
-
 ### Navegador
 
 #### Uso del inspector de elementos
@@ -319,66 +315,93 @@ En html existen elementos de **inline** (se limitan a su contenido) y elemento d
 
 #### Selectores
 
-##### Lista de selectores basicos
+##### Lista de selectores basicos/* css rules */
 
 ```
-id# selector universal
-/* aplica a todo el documento */
+/**
+ * selector universal
+ * aplica a todo el documento 
+*/
 * {
-
+ /* css rules */
 }
 
-# selector de una etiqueta
-/* aplica a <tag></tag> */
+/**
+ * selector de una etiqueta
+ * aplica a <tag></tag>
+*/
 tag {
-  // css rules
+ /* css rules */
 }
 
-# selector de clase
-/* aplica a <div class="class-name"></div> */
+/**
+ * selector de clase
+ * aplica a <div class="class-name"></div> 
+*/
 .class-name {
-  // css rules
+ /* css rules */
 }
 
-# selector de id
-/* aplica a <div id="my-id"></div> */
+/**
+ * selector de id
+ * aplica a <div id="my-id"></div>
+*/
 #my-id {
- // css rules
+ /* css rules */
 }
 
-# selector de atributo
-/* aplica a <a href="www.google.com"></div> */
+/**
+ * selector de atributo
+ * aplica a <a href="www.google.com"></div> 
+*/
 a[href="www.google.com"] {
-  // css rules
+ /* css rules */
 }
 
-# pseudoclase que representa a la etiqueta html
-/* funciona como html {}  */
-:root
+/**
+ * pseudoclase que representa a la etiqueta html
+ * funciona como html {}
+*/
+:root {
+ /* css rules */
+}
+
 ```
 
 ##### Selectores combinados
 
 ```
 
-# descendiente
+/**
+ * descendiente
+ * todos los p dentro de div
+*/
 div p {
- /* todos los p dentro de div */
+ /* css rules */
 }
 
-# hijo directo
+/**
+ * hijo directo
+ * el p dentro de un div
+*/
 div > p {
- /* el p dentro de un div */
+ /* css rules */
 }
 
-# elemento adyacente
+/**
+ * elemento adyacente
+ * Selecciona la etiqueta hermana de la primera
+*/
 div + p {
-  /* Selecciona la etiqueta hermana de la primera */
+  /* css rules */
 }
 
-# general de hermanos
+/**
+ * general de hermanos
+ * todos los hermanos de p denro de div
+*/
 div ~ p {
-  /* todos los hermanos de p denro de div */
+  /* css rules */
 }
 ```
 
@@ -397,7 +420,7 @@ Una **pseudoclase CSS** es una palabra clave que se añade a los selectores y qu
 
 ```
 
-# selector:pseudoclase { propiedad: valor; }
+/* selector:pseudoclase { propiedad: valor; } */
 div:hover {
   background-color: #F89B4D;
 }
@@ -417,7 +440,7 @@ Permiten añadir estilos a una parte concreta del documento.
 
 ```
 
-# selector::pseudo-elemento { propiedad: valor; }
+/* selector::pseudo-elemento { propiedad: valor; } */
 ul li::after {
     color: #21acde;
     content: " | ";
@@ -733,9 +756,3 @@ Ir al [repo del glosario](https://github.com/montoyaguzman/tech-glossary).
 * [JavaScript Wizz](https://www.tiktok.com/@javascript_wizz?lang=en).
 * [Kevin Powell](https://www.tiktok.com/@kevinpowellcss?lang=en).
 * [Figma](https://www.tiktok.com/@figmaofficial?lang=en).
-
-### Areas de estudio
-
-##### Lógica de programación
-
-Area de la programación enfocada en formar el aprendizaje logico matematicos para aplicarlo en la solucion de algoritmos por medio de distintas representaciones (lenguaje natural, diagramas de flujos, pseudocódigo y código).
