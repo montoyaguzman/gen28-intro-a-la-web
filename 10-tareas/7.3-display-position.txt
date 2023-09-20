@@ -1,2 +1,0 @@
-1. Realizar una infografia de como funcionan los tipos de display.
-2. Realizar una infografia de como funcionan los tipos de position en css
